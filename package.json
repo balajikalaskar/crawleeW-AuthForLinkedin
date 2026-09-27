@@ -1,0 +1,23 @@
+{
+  "name": "crawlee-scraper",
+  "version": "1.0.0",
+  "description": "Website HTML + CSS scraper using Crawlee + Playwright",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/index.js"
+  },
+  "keywords": [
+    "crawlee",
+    "playwright",
+    "scraper",
+    "html",
+    "css"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "crawlee": "^3.18.1",
+    "playwright": "^1.63.0"
+  }
+}
